@@ -1,0 +1,28 @@
+= Kotlin Native GTK4
+:experimental:
+:icons: font
+:toc: right
+:toc-title: 目录
+:toclevels: 4
+:source-highlighter: rouge
+
+> 使用 Kotlin Native 和  GTK4 绘制 GUI
+
+== 准备
+
+[source,bash]
+----
+pacman -S gtk4 libadwaita curl base-devel
+----
+
+
+== 测试
+
+[source,bash]
+----
+./gradlew runReleaseExecutableNative
+----
+
+== 截图
+
+image::assets/target.png[]

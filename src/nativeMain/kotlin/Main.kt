@@ -1,4 +1,4 @@
-import gtk4.*
+import adwaita.*
 import kotlinx.cinterop.*
 
 fun main() {

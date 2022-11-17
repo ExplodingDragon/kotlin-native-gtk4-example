@@ -1,2 +1,2 @@
 
-rootProject.name = "LearnKotlinNative"
+rootProject.name = "learn"
