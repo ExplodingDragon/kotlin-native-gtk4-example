@@ -1,0 +1,5 @@
+headers = curl/curl.h
+headerFilter = curl/*
+
+compilerOpts.linux = -I/usr/include
+linkerOpts.linux = -lcurl
